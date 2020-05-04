@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pruebas con JQuery</title>
+    <script src="jquery-3.5.0.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function () {
+        //Codigo a ejecutar cuando el DOM esta listo para recibir instrucciones.
+        $("enlaceocultar").click(function (evento) {
+          // Aqui el codigo que se debe ejecutar al hacer click.
+          $("#estaprueba").css("display", "none");
+        });
+        //Codigo a ejecutar cuando el DOM esta listo para recibir instrucciones.
+        $("enlacemostrar").click(function (evento) {
+          // Aqui el codigo que se debe ejecutar al hacer click.
+          $("#estaprueba").css("display", "block");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="estaprueba">Esta capa nos servira para las pruebas!!</div>
+    <br />
+    <a href="#" id="enlaceocultar">Ocultar capa</a>
+    <a href="#" id="enlaceocultar">Mostrar capa</a>
+    <a href="https://desarrolloweb.com/">DesarrolloWeb.com</a>
+  </body>
+</html>
