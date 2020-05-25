@@ -1,6 +1,6 @@
 //=========  PERSONA  =============
 //  *Creacion de Objeto Padre (Persona)
-// *otro ejemplo para el commit.
+// *otro ejemplo para el commit.:)
 function Persona(pila, apellido, edad, genero, intereses) {
   this.nombre = {
     pila: pila,
